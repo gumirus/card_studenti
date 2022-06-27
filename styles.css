@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.avatar {
+  width: 300px;
+  border-radius: 20px;
+  box-shadow: 8px 7px 23px
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  background: #9db6ce;
+  color: #000;
+}
+
+a{
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+a:active{
+  color:#000;
+}
+
+a:visited {
+  color: whitesmoke;
+}
+
+.container{
+  max-width: 750px;
+  margin: auto;
+  padding-top: 35px;
+}
+
+.info{
+  display: flex;
+  margin-bottom: 90px;
+}
+
+.info-text {
+  margin-left: 20px;
+  text-align:center;
+}
+
+.card{
+  border-radius: 25px;
+  background: gray;
+  padding: 3px;
+  margin-bottom: 60px;
+}
+
+ .card-2{
+  border-radius: 25px;
+  background: rgb(201, 195, 195);
+  padding: 20px;
+  margin-left: 70px;
+}
+
+.card-3{
+  border-radius: 25pc;
+  background: rgb(202, 229, 120);
+  padding: 20px;
+  padding-left: 50px;
+}
+
+.bg-orange{
+  background: #e55f28;
+  border-radius: 20px;
+  padding: 3px;
+  text-align: center;
+}
+
+.bg-yellow{
+  background: yellow;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.bg-green{
+  background:rgb(63, 181, 63);
+  border-radius: 25px;
+  padding-inline: 5px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.bg-black{
+  background: #000;
+  padding: 12px;
+  border-radius: 90px;
+}
+
+.bg-blue{
+  background:rgb(69, 69, 253);
+  border-radius: 100px;
+  padding: 12px;
+}
+
+.bg-red{
+  background:red;
+  border-radius: 100px;
+  padding: 10px;
+}
+
+.bg-white{
+  background: blue;
+  border-radius: 120px;
+  padding: 12px;
+}
+
+.btn{
+  background: rgb(12, 11, 99);
+  padding: 15px 20px;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  font-family: pointer;
+}
+
+.btn:hover{
+  opacity: .8;
+}
+
+.form-row{
+  margin-bottom: 17px;
+}
+
+.form-row,
+.form-group{
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.form .form-row:last-child{
+  margin-right: 0;
+}
+
+@media(max-width: 800px){
+  .info{
+    display: block;
+  }
+  .form-row{display: block;}
+  .form-row .form-group{
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
+
+.form h2{
+  text-align: center;
+}
+
+.form-group label {
+  display: block;
+  font-size:20px;;
+  color: #090b74;
+}
+
+.form-group input,
+.form-group textarea{
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 2px solid rgb(28, 27, 27);
+  color: #000;
+  padding: 15px 0 15px;
+  outline: none;
+  font-family: inherit;
+}
+.center{
+  text-align: center;
+  margin-left: 24px;
+  margin-right: 40px;
+}
