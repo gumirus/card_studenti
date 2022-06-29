@@ -1,2 +1,1 @@
-# https://gumirus.github.io/card_studenti
-# Карточка студента
+# [Карточка студента https://gumirus.github.io/card_studenti
