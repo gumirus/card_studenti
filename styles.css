@@ -38,6 +38,7 @@ body {
   border-radius: 10px;
   background: gray;
   padding: 7px;;
+  margin-top: 3%;
   text-align: center;
   box-shadow: 8px 7px 23px
 }
@@ -49,6 +50,16 @@ body {
   margin-left: 10%;
   margin-right: 10%;
   box-shadow: 8px 7px 23px
+}
+.card-4{
+  border-radius: 10px;
+  background: rgb(206, 193, 193);
+  padding: 7px;;
+  margin-top: 3%;
+  margin-left:22%;
+  text-align: center;
+  box-shadow: 8px 7px 23px
+ 
 }
 
 .card-3{
