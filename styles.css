@@ -14,6 +14,7 @@ body {
 }
 
 .container{
+  background-image: url(https://st4.depositphotos.com/10325396/22409/i/950/depositphotos_224093784-stock-photo-digital-code-number-abstract-background.jpg?forcejpeg=true);
   max-width: 750px;
   margin: auto;
   padding-top: 5px;
@@ -22,8 +23,8 @@ body {
 
 .info{
   display: flex;
-  margin-left: 10%;
-  margin-bottom: 50px;
+  margin-left: 5%;
+  margin-bottom: 3%;
   margin-top: 1%;
 }
 
@@ -48,11 +49,24 @@ body {
   background: rgb(201, 195, 195);
   padding:1%;
   padding-right:5%;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 5%;
+  margin-right: 14%;
   box-shadow: 8px 7px 23px
 }
+
 .card-4{
+  display:grid;
+  border-radius: 10px;
+  padding: 7px;
+  padding-left: 16%;
+  margin-top:1%;
+  padding-right: 1%;
+  text-align: center;
+  box-shadow: 8px 7px 23px
+ 
+}
+.card-5{
+  display:grid;
   border-radius: 10px;
   background: rgb(206, 193, 193);
   padding: 7px;;
@@ -165,7 +179,7 @@ body {
 }
 .center{
   text-align: center;
-  margin-left: 24px;
+  margin-left: 20%;
   margin-right: 40px;
 }
 .fon {
@@ -174,7 +188,4 @@ body {
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
-}
-.HTML{
-  background-image: url(https://cdn-icons-png.flaticon.com/512/919/919827.png);
 }
