@@ -13,90 +13,76 @@ body {
   background: #9db6ce;
 }
 
-a{
-  color: rgb(140, 159, 130);
-  text-decoration: none;
-}
-
-a:hover{
-  text-decoration: underline;
-}
-
-a:active{
-  color: rgb(15, 15, 238);
-}
-a:visited {
-  color: gold(29, 126, 34);
-}
-
 .container{
   max-width: 750px;
   margin: auto;
-  padding-top: 35px;
+  padding-top: 5px;
+  padding-bottom: 20px;
 }
 
 .info{
   display: flex;
-  margin-bottom: 90px;
+  margin-left: 10%;
+  margin-bottom: 50px;
+  margin-top: 1%;
 }
 
 .info-text {
-  margin-left: 20px;
-  text-align:center;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: 5%;
+  text-align-last: auto;
 }
 
 .card{
-  border-radius: 25px;
+  border-radius: 10px;
   background: gray;
-  padding: 3px;
-  margin-bottom: 60px;
+  padding: 7px;;
+  text-align: center;
+  box-shadow: 8px 7px 23px
 }
 
  .card-2{
   border-radius: 25px;
   background: rgb(201, 195, 195);
-  padding: 20px;
-  margin-left: 70px;
+  padding: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+  box-shadow: 8px 7px 23px
 }
 
 .card-3{
-  border-radius: 25pc;
-  background: rgb(202, 229, 120);
+  border-radius: 25px;
+  background: rgb(181, 192, 148);
   padding: 20px;
-  padding-left: 50px;
+  padding-left: 20px;
+  box-shadow: 8px 7px 23px
 }
 
 .bg-orange{
   background: #e55f28;
   border-radius: 20px;
-  padding: 3px;
+  padding: 1%;
   text-align: center;
+  box-shadow: 8px 7px 23px
 }
 
 .bg-yellow{
-  background: yellow;
+  background:yellow;
   border-radius: 20px;
-  padding: 5px;
+  padding: 1%;
+  text-align: center;
+  box-shadow: 8px 7px 23px
 }
 
 .bg-green{
   background:rgb(63, 181, 63);
-  border-radius: 25px;
-  padding-inline: 5px;
+  border-radius: 10px;
+  padding-inline: 1%;
   margin-left: 40px;
-  margin-right: 40px;
-}
-
-.bg-grey{
-  background: darkslategrey;
-  padding: 12px;
-  border-radius: 90px;
-}
-
-.bg-blue{
-  background:rgb(69, 69, 253);
-  border-radius: 100px;
-  padding: 12px;
+  margin-right: 100px;
+  text-align: center;
+  box-shadow: 8px 7px 23px
 }
 
 .bg-red{
@@ -105,11 +91,6 @@ a:visited {
   padding: 10px;
 }
 
-.bg-white{
-  background: blue;
-  border-radius: 120px;
-  padding: 12px;
-}
 .btn{
   background: rgb(12, 11, 99);
   padding: 15px 20px;
@@ -174,4 +155,14 @@ a:visited {
   text-align: center;
   margin-left: 24px;
   margin-right: 40px;
+}
+.fon {
+  background-image: url(https://kartinkin.net/uploads/posts/2021-07/1625612087_29-kartinkin-com-p-yaziki-programmirovaniya-fon-krasivie-foni-34.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.HTML{
+  background-image: url(https://cdn-icons-png.flaticon.com/512/919/919827.png);
 }
