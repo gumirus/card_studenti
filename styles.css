@@ -14,7 +14,7 @@ body {
 
 .container{
   background-image: url(https://st4.depositphotos.com/10325396/22409/i/950/depositphotos_224093784-stock-photo-digital-code-number-abstract-background.jpg?forcejpeg=true);
-  max-width: 900px;
+  max-width: 800px;
   margin: auto;
   padding-top: 5px;
   padding-bottom: 20px;
@@ -24,7 +24,7 @@ body {
   display: flex;
   margin-left: 5%;
   margin-bottom: 3%;
-  margin-top: 1%;
+  margin-top: 3%;
 }
 
 .info-text {
@@ -34,12 +34,12 @@ body {
   text-align-last: auto;
 }
 
-.card{
+.card {
   border-radius: 10px;
-  background: rgba(128, 128, 128, 0.825);
+  background: rgba(128, 128, 128, 0.762);
   padding: 7px;
   text-align: center;
-  box-shadow:black 8px 7px 23px
+  box-shadow:rgb(56, 16, 1) 8px 7px 23px
 }
 
  .card-2{
@@ -54,25 +54,9 @@ body {
 
 .card-4{
   display:grid;
-  border-radius: 10px;
-  padding: 7px;
-  padding-left: 16%;
-  margin-top:1%;
-  padding-right: 1%;
-  text-align: center;
-  box-shadow: 8px 7px 23px
- 
-}
-.card-5{
-  display:grid;
-  border-radius: 10px;
-  background: rgb(206, 193, 193);
-  padding: 7px;;
+  grid-template-columns: 280px;
+  margin-left: 23%;
   margin-top: 3%;
-  margin-left:3%;
-  text-align: center;
-  box-shadow: 8px 7px 23px
- 
 }
 
 .card-3{
@@ -178,7 +162,7 @@ body {
 }
 .center{
   text-align: center;
-  margin-left: 25%;
+  margin-left: 20%;
   margin-right: 10%;
 }
 .fon {
@@ -189,7 +173,7 @@ body {
   background-size: cover;
 }
 .icons {
-  box-shadow:black 9px 10px 34px;
+  box-shadow: rgb(1, 1, 63) 9px 10px 34px;
   background:rgba(169, 169, 169, 0.852);
   border-radius: 10px;
   margin-right: 10px;
@@ -198,5 +182,4 @@ body {
   margin-bottom: 10px;
   padding: 4px;
   text-align: center;
-  
 }
