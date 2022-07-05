@@ -39,6 +39,7 @@ body {
   background: rgba(128, 128, 128, 0.762);
   padding: 7px;
   text-align: center;
+  animation: card 3s ease-in-out infinite;
   box-shadow:rgb(56, 16, 1) 8px 7px 23px
 }
 
@@ -49,6 +50,7 @@ body {
   padding-right:5%;
   margin-left: 5%;
   margin-right: 14%;
+  animation: card-2 3s ease-in-out infinite;
   box-shadow: 8px 7px 23px
 }
 
@@ -57,6 +59,7 @@ body {
   grid-template-columns: 280px;
   margin-left: 23%;
   margin-top: 3%;
+  animation: card-4 3s ease-in-out infinite;
 }
 
 .card-3{
@@ -64,6 +67,7 @@ body {
   background: rgba(181, 192, 148, 0.623);
   padding: 20px;
   padding-left: 20px;
+  animation: card-3 3s ease-in-out infinite;
   box-shadow: 8px 7px 23px
 }
 
@@ -72,6 +76,7 @@ body {
   border-radius: 7px;
   padding: 1%;
   text-align: center;
+  animation: bg-orange 3s ease-in-out infinite;
   box-shadow: 8px 7px 23px
 }
 
@@ -80,6 +85,7 @@ body {
   border-radius: 7px;
   padding: 1%;
   text-align: center;
+  animation: bg-yellow 4s ease-in-out infinite;
   box-shadow: 8px 7px 23px
 }
 
@@ -91,7 +97,8 @@ body {
   margin-left: 40px;
   margin-right: 100px;
   text-align: center;
-  box-shadow: 8px 7px 23px
+  
+  animation: bg-green 5s ease-in-out infinite;
 }
 
 .bg-red{
@@ -182,4 +189,67 @@ body {
   margin-bottom: 10px;
   padding: 4px;
   text-align: center;
+  transition: top;
+  position:sticky;
+  animation: render 3s ease-in-out infinite;
+}
+.icons.hover{
+  top: 4;
+}
+
+@keyframes render{
+  0%{
+    background:rgba(169, 169, 169, 0.852);
+  }
+  50%{
+    background: rgba(108, 164, 96, 0.365);
+  }
+}
+@keyframes bg-green{
+  0%{
+    background:rgba(63, 181, 63, 0.85);
+  }
+  50%{
+    background:rgba(63, 181, 63, 0.324);
+  }
+}
+@keyframes bg-yellow{
+  0%{
+    background: rgba(255, 217, 0, 0.886);
+  }
+  50%{
+    background:rgba(255, 217, 0, 0.221);
+  }
+}
+@keyframes bg-green{
+  0%{
+    background:rgba(63, 181, 63, 0.85);
+  }
+  50%{
+    background:rgba(63, 181, 63, 0.324);
+  }
+}
+@keyframes bg-orange{
+  0%{
+    background: #e55e28d6;
+  }
+  50%{
+    background: #e55e286e;
+  }
+}
+@keyframes card{
+  0%{
+    background: rgba(128, 128, 128, 0.762);
+  }
+  50%{
+    background: rgba(128, 128, 128, 0.295);
+  }
+}
+@keyframes card-2{
+  0%{
+    background: rgba(201, 195, 195, 0.75);
+  }
+  50%{
+    background: rgba(201, 195, 195, 0.29);
+  }
 }
