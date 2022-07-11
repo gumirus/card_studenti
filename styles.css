@@ -37,7 +37,7 @@ body {
 
 .card {
   border-radius: 10px;
-  background: rgba(128, 128, 128, 0.762);
+  background: rgb(128, 128, 128);
   padding: 7px;
   text-align: center;
   animation: card 9s ease-in-out infinite;
@@ -46,7 +46,7 @@ body {
 
  .card-2{
   border-radius: 25px;
-  background: rgba(201, 195, 195, 0.75);
+  background: rgb(201, 195, 195);
   padding:1%;
   padding-right:5%;
   margin-left: 5%;
@@ -65,7 +65,7 @@ body {
 
 .card-3{
   border-radius: 10px;
-  background: rgba(181, 192, 148, 0.623);
+  background: rgb(181, 192, 148);
   padding: 20px;
   padding-left: 20px;
   animation: card-3 9s ease-in-out infinite;
@@ -73,7 +73,7 @@ body {
 }
 
 .bg-orange{
-  background: #e55e28d6;
+  background: #e55e28;
   border-radius: 7px;
   padding: 1%;
   text-align: center;
@@ -82,7 +82,7 @@ body {
 }
 
 .bg-yellow{
-  background:rgba(255, 217, 0, 0.886);
+  background:rgb(255, 217, 0);
   border-radius: 7px;
   padding: 1%;
   text-align: center;
@@ -91,7 +91,7 @@ body {
 }
 
 .bg-green{
-  background:rgba(63, 181, 63, 0.85);
+  background:rgb(63, 181, 63);
   border-radius: 7px;
   padding-inline: 1%;
   margin-left: 40px;
@@ -172,7 +172,7 @@ body {
   margin-right: 10%;
 }
 .fon {
-  background-image: url(https://kartinkin.net/uploads/posts/2021-07/1625612087_29-kartinkin-com-p-yaziki-programmirovaniya-fon-krasivie-foni-34.png);
+  background-image: url(https://oir.mobi/uploads/posts/2021-03/1616587116_22-p-programmirovanie-fon-28.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
@@ -180,7 +180,7 @@ body {
 }
 .icons {
   box-shadow:black 9px 10px 34px;
-  background:rgba(169, 169, 169, 0.852);
+  background:rgb(169, 169, 169);
   border-radius: 10px;
   margin-right: 10px;
   margin-left: 10px;
@@ -198,18 +198,18 @@ body {
 
 @keyframes render{
   0%{
-    background:rgba(169, 169, 169, 0.852);
+    background:rgb(169, 169, 169);
   }
   50%{
-    background: rgba(108, 164, 96, 0.365);
+    background: rgba(169, 169, 169, 0.553);
   }
 }
 @keyframes bg-green{
   0%{
-    background:rgba(63, 181, 63, 0.85);
+    background:rgb(63, 181, 63);
   }
   50%{
-    background:rgba(63, 181, 63, 0.324);
+    background:rgba(63, 181, 63, 0.556);
   }
 }
 @keyframes bg-yellow{
@@ -217,36 +217,36 @@ body {
     background: rgba(255, 217, 0, 0.886);
   }
   50%{
-    background:rgba(255, 217, 0, 0.221);
+    background:rgba(255, 217, 0, 0.427);
   }
 }
 @keyframes bg-green{
   0%{
-    background:rgba(63, 181, 63, 0.85);
+    background:rgb(63, 181, 63);
   }
   50%{
-    background:rgba(63, 181, 63, 0.324);
+    background:rgba(63, 181, 63, 0.52);
   }
 }
 @keyframes bg-orange{
   0%{
-    background: #e55e28d6;
+    background: #e55e28;
   }
   50%{
-    background: #e55e286e;
+    background: #e55e2891;
   }
 }
 @keyframes card{
   0%{
-    background: rgba(128, 128, 128, 0.762);
+    background: rgb(128, 128, 128);
   }
   50%{
-    background: rgba(128, 128, 128, 0.295);
+    background: rgba(128, 128, 128, 0.514);
   }
 }
 @keyframes card-2{
   0%{
-    background: rgba(201, 195, 195, 0.75);
+    background: rgba(201, 195, 195, 0.953);
   }
   50%{
     background: rgba(201, 195, 195, 0.29);
